@@ -296,3 +296,100 @@ nav {
 .pro-card .features-list li i {
     color: #4da6ff;
 }
+
+/* AI Challenge Section - FAQ */
+.faq-section {
+    padding: 40px 20px 80px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.faq-card {
+    background-color: #f9f9f9;
+    padding: 24px;
+    border-radius: 12px;
+    border-left: 4px solid #0056b3;
+}
+
+.faq-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.faq-card p {
+    color: #666;
+    font-size: 15px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #001122;
+    color: white;
+    padding: 60px 0 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 32px;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.footer-socials a:hover {
+    background-color: #0056b3;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
